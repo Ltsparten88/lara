@@ -3,6 +3,9 @@ name: Build IPA
 on:
   push:
 
+permissions:
+  contents: write
+
 jobs:
   build-ipa:
     runs-on: macos-latest
